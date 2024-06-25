@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
+        <link rel="icon" href="images/vostok-favicon-color.png" type="image/icon type">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vostok</title>
+        <link rel="stylesheet" href="styles/bg-image.css">
         <link rel="stylesheet" href="styles/trustworthy.css">
         <link rel="stylesheet" href="styles/Truzh.css">
         <link rel="stylesheet" href="styles/body.css">
@@ -11,70 +14,45 @@
         <link rel="stylesheet" href="styles/Gory.css">
         <link rel="stylesheet" href="styles/company-activity.css">
         <link rel="stylesheet" href="styles/navbar.css">
-        <link rel="stylesheet" href="styles/carousel.css">
+        <link rel="stylesheet" href="styles/statistics-bg.css">
+        <link rel="stylesheet" href="styles/statistics.css">
+        <link rel="stylesheet" href="styles/heading.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
-    <body class="body">
-        <nav class="navbar navbar-expand-xxl navbar-dark bg-dark" id="navbar">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Услуги</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Сотрудники</a>
-                    </li>
+    <body>
+        <header>
+            <div class="logotip">
+                <img src="images/vostok-high-resolution-logo-black-transparent.png" alt="logo" class="logo">
+                <p>Строительная Компания</p>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#" class="links">link1</a></li>
+                    <li><a href="#" class="links">link2</a></li>
+                    <li><a href="#" class="links">link3</a></li>
                 </ul>
+            </nav>
+            <a class="contacts" href="#">+7-999-999-99-99</a>
+        </header>
+        <div class="main">
+            <div class="heading">
+                <div class="hd-0" data-aos="fade-up" data-aos-duration="800">Vostok</div>
+                <div id="underline" data-aos="fade-zoom-in" data-aos-delay="600" data-aos-duration="1000"></div>
+                <div class="hd-1" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1100">Проекты</div>
+                <div class="hd-2" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1100">Любой</div>
+                <div class="hd-3" data-aos="fade-zoom-in" data-aos-delay="1000" data-aos-duration="1400">Сложности</div>
+                <div class="hd-4" data-aos="fade-up" data-aos-delay="1750" data-aos-duration="900">от идеи до результата</div>
             </div>
-        </nav>
-        <div class="container text-center" id="carousel-container">
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="https://www.google.com/search?q=%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82+%D0%B2%D0%BE%D1%80%D0%BE%D0%B1%D1%8C%D0%B5%D0%B2%D1%8B+%D0%B3%D0%BE%D1%80%D1%8B&oq=%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82+%D0%BD%D0%B0+%D0%B2%D0%BE%D1%80%D0%BE%D0%B1%D1%8C&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIE0gEIMzU3OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">
-                        <img src="images/Truzh/Truzh1.JPG" class="Truzh" alt="Truzh">
-                    </a>
+            <div class="Truzh">
+                <div>
+                    <a href="#"><img src="images/Truzh/Truzh1.JPG" alt="Truzh"></a>
                 </div>
-                <div class="carousel-item">
-                    <a href="https://www.google.com/search?q=%D0%B5%D1%89%D0%B5+%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82&oq=%D0%B5%D1%89%D0%B5+%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTcxMzlqMGoxNagCCLACAQ&sourceid=chrome&ie=UTF-8" target="_blank">
-                        <img src="images/Omsk/Omsk.JPG" class="Omsk" alt="Omsk">
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://www.google.com/search?q=%D0%B8+%D0%B5%D1%89%D0%B5+%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82&oq=%D0%B8+%D0%B5%D1%89%D0%B5+%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDc2ODdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">
-                        <img src="images/Gory/Gory1.PNG" class="Gory" alt="Gory">
-                    </a>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </a>
             </div>
         </div>
-        <a class="trustlink" href="https://vbankcenter.ru/contragent/1227700848242" target="_blank">
-            <img class="trustimage" src="https://cdn1.tenchat.ru/static/reliability/6503e854-4bcb-4af1-b7d4-e9ac3caeaea9" alt="trustworthy">
-        </a>
-        <div class="container" id="company-activity">
-            <ul>
-                <li><h3>инженерно-техническое проектирование</h3></li>
-                <br>
-                <li><h3>управление проектами строительства</h3></li>
-                <br>
-                <li><h3>выполнением строительного контроля и авторского надзора</h3></li>
-            </ul>
-        </div>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>

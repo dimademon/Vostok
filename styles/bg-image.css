@@ -1,0 +1,13 @@
+#bg1 {
+    position: absolute;
+    top: 6%;
+    width: 100%;
+    z-index: -1;
+}
+
+#bg2 {
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    text-align: center;
+}
