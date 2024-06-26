@@ -1,3 +1,17 @@
 body::-webkit-scrollbar { 
     display: none;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    margin-top: 17%;
+    width: 100em;
+    height: 100em;
+}

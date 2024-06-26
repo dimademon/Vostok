@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Constantine';
+    src: url(C:\Users\vdvla\Desktop\Fonts\Constantine\Constantine.ttf);
+}
+
+@font-face {
+    font-family: 'Steclo';
+    src: url(C:\Users\vdvla\Desktop\Fonts\Steclo\PepperType-Steclo-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url(C:\Users\vdvla\Desktop\Fonts\Glober\Glober-Thin-Free.otf);
+}
+
+#projects {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#projects-images .image {
+    width: 52vmin;
+    height: 60vmin;
+    object-fit: cover;
+}
+
+#projects-images {
+    margin-top: 30%;
+    display: flexbox;
+    gap: 4vmin;
+    position: absolute;
+    left: 1.85%;
+    top: 100%;
+    transform: translate(0%, -50%);
+}
+
+#proekty {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-top: 4%;
+    margin-left: 1.8%;
+    font-family: Constantine, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#description {
+    position: absolute;
+    width: 440px;
+    color: rgb(0, 0, 0);
+    margin-top: 4.5%;
+    margin-left: 72%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.button {
+    height: 8%;
+    width: 11%;
+    margin-top: 26%;
+    margin-left: 13.5%;
+	pointer-events: auto;
+	cursor: pointer;
+	background: #ffffff;
+	border: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+	position: absolute;
+	display: inline-block;
+}
+
+
+.button--pan {
+	border: 1px solid #000;
+	border-radius: 3rem;
+	overflow: hidden;
+	color: #fff;
+    opacity: 0.8;
+    transition: all 0.5s ease 0s;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.button--pan span {
+	position: relative;
+	mix-blend-mode: difference;
+}
+
